@@ -26,7 +26,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-﻿#pragma once
+#pragma once
 
 #define CNN_OBJ_MAXINPUT 100.0 // reprojection errors are clamped at this magnitude
 
