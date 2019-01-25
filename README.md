@@ -188,7 +188,7 @@ Config file 11 is specific to each dataset.
 Files 11 to 18 are implemented as soft links in our data package. The soft links assume that the `dataset` lie within `core/build` (for access to `core/lua`.
 The data package also contains fully trained models for each scene (after end-to-end refinement).
 
-You find the rendered depth images we used for training with a 3D model here: [7scenes]{https://cloudstore.zih.tu-dresden.de/index.php/s/IS7AsAUioKKX7JZ}, [cambridge]{https://cloudstore.zih.tu-dresden.de/index.php/s/i90GR0smcjowGqT}
+You find the rendered depth images we used for training with a 3D model here: [7scenes](https://cloudstore.zih.tu-dresden.de/index.php/s/IS7AsAUioKKX7JZ), [cambridge](https://cloudstore.zih.tu-dresden.de/index.php/s/i90GR0smcjowGqT)
 
 ### Executing the code
 
