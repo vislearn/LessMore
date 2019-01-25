@@ -1,5 +1,11 @@
 # DSAC++ Code Documentation
 
+- [General Setup](#general-setup)
+- [Programs](#programs)
+- [Data Structure](#data-structure)
+
+## Introduction
+
 This document explains the high level concepts and setup of our improved DSAC code for camera localization. See it in action [here](https://www.youtube.com/watch?v=DjJFRTFEUq0), and also see the [project page](https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation/#CVPR18). You find an explanation of the method and theory in the following paper. Please cite this paper if you use this code in your own work:
 
 E. Brachmann,  C. Rother,  
