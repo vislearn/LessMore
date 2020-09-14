@@ -161,9 +161,9 @@ Most importantly, the first number is the ratio of test images with correctly es
 
 ## Data Structure
 
-We provide a [data package](https://cloudstore.zih.tu-dresden.de/index.php/s/5hHv4gywLFI9K07) for deployment of our code for the datasets used in the paper. 
+We provide a [data package](https://heidata.uni-heidelberg.de/api/access/datafile/:persistentId?persistentId=doi:10.11588/data/EGCMUU/GCZUDD) for deployment of our code for the datasets used in the paper. 
 Note that we do not provide the data set itself, but merely the structure outline and associated meta data to reproduce the results
-from our paper. (As an exception we provide rendered depth images for [7scenes](https://cloudstore.zih.tu-dresden.de/index.php/s/IS7AsAUioKKX7JZ), [cambridge](https://cloudstore.zih.tu-dresden.de/index.php/s/i90GR0smcjowGqT)). 
+from our paper. (As an exception we provide rendered depth images for [7scenes](https://heidata.uni-heidelberg.de/api/access/datafile/:persistentId?persistentId=doi:10.11588/data/N07HKC/4PLEEJ), [cambridge](https://heidata.uni-heidelberg.de/api/access/datafile/:persistentId?persistentId=doi:10.11588/data/EGCMUU/7LBIQJ)). 
 Our code assumes the following data structure:
 
 1. `dataset`
@@ -194,7 +194,7 @@ Config file 11 is specific to each dataset.
 Files 11 to 18 are implemented as soft links in our data package. The soft links assume that the `dataset` lie within `core/build` (for access to `core/lua`.
 The data package also contains fully trained models for each scene (after end-to-end refinement).
 
-You find the rendered depth images we used for training with a 3D model here: [7scenes](https://cloudstore.zih.tu-dresden.de/index.php/s/IS7AsAUioKKX7JZ), [cambridge](https://cloudstore.zih.tu-dresden.de/index.php/s/i90GR0smcjowGqT)
+You find the rendered depth images we used for training with a 3D model here: [7scenes](https://heidata.uni-heidelberg.de/api/access/datafile/:persistentId?persistentId=doi:10.11588/data/N07HKC/4PLEEJ), [cambridge](https://heidata.uni-heidelberg.de/api/access/datafile/:persistentId?persistentId=doi:10.11588/data/EGCMUU/7LBIQJ)
 
 ### Executing the code
 
